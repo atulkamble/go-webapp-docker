@@ -47,12 +47,14 @@ func main() {
     fmt.Printf("The application was built with the Go version: %s\n", runtime.Version())
 }
 ```
+
 ```
 go build -o hello-world-with-version
 ```
 ```
 go build -o hello-world-with-version
 ```
+go run main.go
 ```
 ./hello-world-with-version
 ```

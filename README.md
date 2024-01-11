@@ -5,6 +5,11 @@ This directory contains:
 - `Dockerfile` is used to build the Docker image for the application.
 
 ```
+git init
+git clone https://github.com/atulkamble/go-webapp-docker
+cd go-webapp-docker
+```
+```
 go version
 go help version
 go mod init
